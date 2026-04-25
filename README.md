@@ -1,6 +1,6 @@
 # fledge-plugin-port
 
-A fledge plugin
+Find and kill processes bound to a TCP port — wraps `lsof` (macOS/Linux) and `netstat` (Windows) with a friendlier interface.
 
 A plugin for [fledge](https://github.com/CorvidLabs/fledge).
 
@@ -13,16 +13,10 @@ fledge plugins install CorvidLabs/fledge-plugin-port
 ## Usage
 
 ```bash
-fledge myplugin --help
+fledge port 3000              # show what's bound to port 3000
+fledge port kill 3000         # kill the process bound to port 3000
+fledge port list              # list all bound ports (with PIDs and commands)
 ```
-
-## Development
-
-This is a language-agnostic plugin scaffold. To add language tooling:
-
-- **Rust:** `cargo init --bin`, then point `plugin.toml` at `target/release/fledge-myplugin`
-- **Bun:** `bun init`, then build to `dist/fledge-myplugin`
-- **Go:** `go mod init`, then build to `./fledge-myplugin`
 
 ## License
 

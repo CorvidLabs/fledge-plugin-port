@@ -1,0 +1,22 @@
+[package]
+name = "fledge-plugin-port"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.89"
+description = "Find and kill processes bound to a TCP port."
+license = "MIT"
+authors = ["0xLeif"]
+repository = "https://github.com/CorvidLabs/fledge-plugin-port"
+
+[[bin]]
+name = "fledge-port"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+
+[profile.release]
+strip = true
+lto = "thin"
+codegen-units = 1
