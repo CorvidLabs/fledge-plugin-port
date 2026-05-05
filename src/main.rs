@@ -134,24 +134,18 @@ fn print_table(entries: &[Bound]) {
 
 #[cfg(unix)]
 fn scan(port_filter: Option<u16>) -> Result<Vec<Bound>> {
-    let mut args = vec![
-        "-iTCP".to_string(),
+    let tcp_filter = match port_filter {
+        Some(p) => format!("-iTCP:{p}"),
+        None => "-iTCP".to_string(),
+    };
+    let args = vec![
+        tcp_filter,
         "-sTCP:LISTEN".to_string(),
         "-P".to_string(),
         "-n".to_string(),
         "-F".to_string(),
         "pcuLn".to_string(),
     ];
-    if let Some(p) = port_filter {
-        args = vec![
-            format!("-iTCP:{p}"),
-            "-sTCP:LISTEN".to_string(),
-            "-P".to_string(),
-            "-n".to_string(),
-            "-F".to_string(),
-            "pcuLn".to_string(),
-        ];
-    }
 
     let output = Command::new("lsof")
         .args(&args)
