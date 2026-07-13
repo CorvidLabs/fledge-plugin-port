@@ -14,5 +14,43 @@
       "digest": "48613ae4ff4233450bb9ddb66a000ea2d16f0e97013122160456eb91592abd66",
       "note": "Closing approval recorded after successful committed-head native verification with exact requirement evidence."
     }
+  ],
+  "reopenings": [
+    {
+      "schema_version": 1,
+      "change_id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-port-fledge-plugin",
+      "actor": "user:0xLeif",
+      "reason": "Refresh stale migration evidence after accepted non-semantic governance, workflow, canonical contract, and generated integration corrections",
+      "timestamp": 1783986015,
+      "from_state": "accepted",
+      "to_state": "verifying",
+      "superseded_approval": {
+        "gate": "acceptance",
+        "actor": "user:0xLeif",
+        "timestamp": 1783955442,
+        "digest": "48613ae4ff4233450bb9ddb66a000ea2d16f0e97013122160456eb91592abd66",
+        "note": "Closing approval recorded after successful committed-head native verification with exact requirement evidence."
+      },
+      "prior_verification": {
+        "timestamp": 1783955374,
+        "commit": "2f0f011022d2cd24aab2cf9f38d042e6a4b9e6e4",
+        "contract_digest": "99a94441b1e7699370521710844495faf96d2af21244235baf75f8f2f4dd35da",
+        "workspace_digest": "a7fa666fa3f15044f43b2c18f763e68dfaf3b011ce8cf8ce0ac199b8257bfe21",
+        "acceptance_input_digest": "d65b06831f23c47e2c5bb3d4a30a0242d39abe63fbfb00531e809a1097daf7e5",
+        "passed": true,
+        "commands": [
+          {
+            "command": "fledge lanes run verify",
+            "success": true,
+            "exit_code": 0
+          }
+        ],
+        "requirement_ids": [
+          "REQ-port-001"
+        ]
+      },
+      "stale_acceptance_input_digest": "d65b06831f23c47e2c5bb3d4a30a0242d39abe63fbfb00531e809a1097daf7e5",
+      "current_acceptance_input_digest": "1daa73ac06efce33893c32da53915923795b5019d9c7c2d5272c820a2cdaf449"
+    }
   ]
 }
