@@ -21,7 +21,10 @@ List SHALL report all listening TCP ports discovered by the platform inspector.
 
 ### REQ-port-003
 
-Kill SHALL target only processes bound to the selected port, using graceful termination by default and force only when requested.
+Kill SHALL target only processes bound to the selected port. Unix SHALL use graceful termination by default and force only when requested; Windows SHALL use the platform `taskkill /F` behavior for both modes.
+
+Acceptance Criteria
+- Source review confirms the Unix signal selection and the unconditional Windows `/F` argument; the platform branches compile in the existing Linux, macOS, and Windows CI matrix.
 
 ### REQ-port-004
 

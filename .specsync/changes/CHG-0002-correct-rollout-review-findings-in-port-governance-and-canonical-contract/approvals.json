@@ -1,0 +1,18 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971298,
+      "digest": "a4dfba0c09c8427af0cc6e55c58b5e5f353186bdc2f4329cab730046856d6f6e",
+      "note": "Approved migration-only review corrections: truthful Windows contract, complete governance path coverage, and preserved cross-platform CI."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971388,
+      "digest": "a9ed89b0cadf7a14d100ee77416cd8713000af126b8a54e6cb068d875f165671",
+      "note": "Approved the finalized migration-only review corrections after artifact audit; no product code changes."
+    }
+  ]
+}

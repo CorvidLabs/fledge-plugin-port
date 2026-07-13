@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0002-correct-rollout-review-findings-in-port-governance-and-canonical-contract",
+  "slug": "correct-rollout-review-findings-in-port-governance-and-canonical-contract",
+  "title": "Correct rollout review findings in Port governance and canonical contract",
+  "description": "Correct rollout review findings in Port governance and canonical contract",
+  "kind": "bug_fix",
+  "state": "implementing",
+  "base_commit": "ce4adcb577c0d4aad9efcea4c29bb580df6f199d",
+  "created_at": 1783971174,
+  "updated_at": 1783971388,
+  "affected_specs": [
+    "port"
+  ],
+  "affected_paths": [
+    ".specsync/",
+    "specs/",
+    ".github/workflows/"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "The canonical kill requirement truthfully records the existing Windows forceful behavior",
+    "public and governance paths participate in SDD enforcement",
+    "governance-only pull requests run the preserved Linux macOS and Windows CI matrix",
+    "strict SpecSync and native verification pass with fresh evidence"
+  ],
+  "selected_artifacts": [
+    "context",
+    "testing",
+    "tasks",
+    "requirements",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "public_contract": "yes"
+  }
+}
