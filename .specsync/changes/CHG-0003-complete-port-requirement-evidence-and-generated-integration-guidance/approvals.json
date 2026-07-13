@@ -1,0 +1,12 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986314,
+      "digest": "cb50a72f83bef730b460382a0a0567e1df3f66125ee937e986664269dadde5da",
+      "note": "Approved complete migration-only correction artifacts after auditing five canonical requirement mappings, generated agent input preservation, and explicit non-product scope."
+    }
+  ],
+  "reopenings": []
+}
