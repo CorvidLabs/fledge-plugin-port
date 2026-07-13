@@ -27,6 +27,13 @@
       "timestamp": 1783971430,
       "digest": "d325fea3de99ec98420e8eda0f7514186d3a27449f5e9e8cb0e044b2ca84b44a",
       "note": "Accepted after the five-step native lane passed against 6b7dbb0 and the canonical Windows exception, SDD paths, and CI filters were audited as migration-only corrections."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986354,
+      "digest": "ce2f0d30aa954885e4f40513db2b79da51bff44d36f925c092925c84ef36d5bc",
+      "note": "Closing approval refresh for the unchanged review-correction definition after exact-head native verification and acceptance of the separate complete-requirement change."
     }
   ],
   "reopenings": [

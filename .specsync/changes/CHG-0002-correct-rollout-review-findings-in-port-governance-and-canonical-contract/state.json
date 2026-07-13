@@ -5,11 +5,11 @@
   "title": "Correct rollout review findings in Port governance and canonical contract",
   "description": "Correct rollout review findings in Port governance and canonical contract",
   "kind": "bug_fix",
-  "state": "verifying",
+  "state": "accepted",
   "canonical_applied": true,
   "base_commit": "ce4adcb577c0d4aad9efcea4c29bb580df6f199d",
   "created_at": 1783971174,
-  "updated_at": 1783986338,
+  "updated_at": 1783986354,
   "affected_specs": [
     "port"
   ],
