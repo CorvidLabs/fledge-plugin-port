@@ -1,0 +1,19 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986314,
+      "digest": "cb50a72f83bef730b460382a0a0567e1df3f66125ee937e986664269dadde5da",
+      "note": "Approved complete migration-only correction artifacts after auditing five canonical requirement mappings, generated agent input preservation, and explicit non-product scope."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986332,
+      "digest": "cd5cffb8b71e6549d27771aba8fc727a28c5fd496d8c293a3ffdb92016e120b5",
+      "note": "Closing approval after exact-head native verification passed with all five Port requirement IDs and the migration-only correction artifacts were audited against the existing implementation."
+    }
+  ],
+  "reopenings": []
+}

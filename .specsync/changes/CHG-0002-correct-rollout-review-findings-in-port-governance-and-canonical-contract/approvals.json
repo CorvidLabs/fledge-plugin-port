@@ -1,0 +1,77 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971298,
+      "digest": "a4dfba0c09c8427af0cc6e55c58b5e5f353186bdc2f4329cab730046856d6f6e",
+      "note": "Approved migration-only review corrections: truthful Windows contract, complete governance path coverage, and preserved cross-platform CI."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971388,
+      "digest": "a9ed89b0cadf7a14d100ee77416cd8713000af126b8a54e6cb068d875f165671",
+      "note": "Approved the finalized migration-only review corrections after artifact audit; no product code changes."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971419,
+      "digest": "a8061eb5f178446aa56efaaa3ba69df76c0d63a493d7fddb4449b60c9251650d",
+      "note": "Approved finalized migration-only CHG-0002 after native verification and blocker audit; CHG-0001 remains untouched."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971430,
+      "digest": "d325fea3de99ec98420e8eda0f7514186d3a27449f5e9e8cb0e044b2ca84b44a",
+      "note": "Accepted after the five-step native lane passed against 6b7dbb0 and the canonical Windows exception, SDD paths, and CI filters were audited as migration-only corrections."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986354,
+      "digest": "ce2f0d30aa954885e4f40513db2b79da51bff44d36f925c092925c84ef36d5bc",
+      "note": "Closing approval refresh for the unchanged review-correction definition after exact-head native verification and acceptance of the separate complete-requirement change."
+    }
+  ],
+  "reopenings": [
+    {
+      "schema_version": 1,
+      "change_id": "CHG-0002-correct-rollout-review-findings-in-port-governance-and-canonical-contract",
+      "actor": "user:0xLeif",
+      "reason": "Refresh unchanged review-correction evidence after the separate accepted five-requirement and generated-guidance change",
+      "timestamp": 1783986338,
+      "from_state": "accepted",
+      "to_state": "verifying",
+      "superseded_approval": {
+        "gate": "acceptance",
+        "actor": "user:0xLeif",
+        "timestamp": 1783971430,
+        "digest": "d325fea3de99ec98420e8eda0f7514186d3a27449f5e9e8cb0e044b2ca84b44a",
+        "note": "Accepted after the five-step native lane passed against 6b7dbb0 and the canonical Windows exception, SDD paths, and CI filters were audited as migration-only corrections."
+      },
+      "prior_verification": {
+        "timestamp": 1783971420,
+        "commit": "6b7dbb0639a5caf27d9b1ef550b07411360cbe0e",
+        "contract_digest": "a8061eb5f178446aa56efaaa3ba69df76c0d63a493d7fddb4449b60c9251650d",
+        "workspace_digest": "0b83dd1040698bfc08459780044241030ff63e7e3787aedec8ecbe36007d3107",
+        "acceptance_input_digest": "c273cba072f03829ae1fb6a66ea8f920de5d885d90a74af38a78e284049f40d6",
+        "passed": true,
+        "commands": [
+          {
+            "command": "fledge lanes run verify",
+            "success": true,
+            "exit_code": 0
+          }
+        ],
+        "requirement_ids": [
+          "REQ-port-003"
+        ]
+      },
+      "stale_acceptance_input_digest": "c273cba072f03829ae1fb6a66ea8f920de5d885d90a74af38a78e284049f40d6",
+      "current_acceptance_input_digest": "f4bd56a34bf46127aaec6f2c13e3c47760af987b22a4ee2139be38f6e2b14880"
+    }
+  ]
+}
