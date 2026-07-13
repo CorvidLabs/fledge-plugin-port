@@ -1,6 +1,6 @@
 ---
 id: CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-port-fledge-plugin
-state: verifying
+state: accepted
 type: migration
 base_commit: 33376dba119a5ee5b7ca9a05540f1d89e1c07d28
 ---

@@ -41,6 +41,13 @@
       "timestamp": 1783986195,
       "digest": "99a94441b1e7699370521710844495faf96d2af21244235baf75f8f2f4dd35da",
       "note": "Reapproved the original already-applied migration definition; further canonical and integration corrections are intentionally moving to a new change workspace as required by SpecSync."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986217,
+      "digest": "e0f9f8d6716605d91301e88a556f33aa4f6cff6d3c99c28c534ae1227f18eda4",
+      "note": "Closing approval refresh for the unchanged already-applied migration definition after exact-head native verification; further corrections remain isolated in a new change."
     }
   ],
   "reopenings": [
