@@ -34,6 +34,13 @@
       "timestamp": 1783986148,
       "digest": "246d0b297bb207fc79f661639de20e15b56c04076c21dfb29089922458bf3951",
       "note": "Approved the complete five-requirement semantic delta after matching every entry and acceptance criterion to the canonical companion and existing implementation evidence."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986195,
+      "digest": "99a94441b1e7699370521710844495faf96d2af21244235baf75f8f2f4dd35da",
+      "note": "Reapproved the original already-applied migration definition; further canonical and integration corrections are intentionally moving to a new change workspace as required by SpecSync."
     }
   ],
   "reopenings": [
