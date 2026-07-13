@@ -5,10 +5,10 @@
   "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for the Port Fledge plugin",
   "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for the Port Fledge plugin",
   "kind": "migration",
-  "state": "draft",
+  "state": "implementing",
   "base_commit": "33376dba119a5ee5b7ca9a05540f1d89e1c07d28",
   "created_at": 1783882070,
-  "updated_at": 1783882076,
+  "updated_at": 1783955348,
   "affected_specs": [
     "port"
   ],
@@ -26,12 +26,11 @@
   "no_spec_change": false,
   "no_spec_change_rationale": null,
   "acceptance_criteria": [
-    "SpecSync strict coverage is 100%; all four integrations are installed; Trust doctor and verification pass; formatting",
-    "Clippy",
-    "five parser tests",
-    "release build",
-    "help smoke",
-    "and cross-platform hosted builds remain green."
+    "SpecSync strict coverage is 100%.",
+    "All four integrations are installed.",
+    "Trust doctor and verification pass.",
+    "Formatting, Clippy, five parser tests, release build, and help smoke remain green.",
+    "Cross-platform hosted builds remain an acceptance gate."
   ],
   "selected_artifacts": [
     "context",
