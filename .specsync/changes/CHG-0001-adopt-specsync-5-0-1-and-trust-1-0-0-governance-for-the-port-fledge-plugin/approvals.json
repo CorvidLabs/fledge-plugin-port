@@ -20,6 +20,13 @@
       "timestamp": 1783986076,
       "digest": "d4ad0913b6a4c9b1bb1f1f0c2f6ed81dc087aceccd6ffa5072ceeb5ddd7aa8e7",
       "note": "Approved the refreshed migration definition after auditing all five canonical requirements, generated agent commands, and accepted governance review corrections; no product code changes."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986110,
+      "digest": "ff197752098472ec94ff35bcb7a216aab2ff0a34d7628b73f7273c2f0330a0b6",
+      "note": "Approved the explicit one-line-per-requirement evidence mapping after confirming it describes the existing parser tests, platform builds, help smoke, and bounded source inspection."
     }
   ],
   "reopenings": [
