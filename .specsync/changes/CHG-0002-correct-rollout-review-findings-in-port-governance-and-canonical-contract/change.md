@@ -1,6 +1,6 @@
 ---
 id: CHG-0002-correct-rollout-review-findings-in-port-governance-and-canonical-contract
-state: accepted
+state: verifying
 type: bug_fix
 base_commit: ce4adcb577c0d4aad9efcea4c29bb580df6f199d
 ---

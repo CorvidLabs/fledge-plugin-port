@@ -1,6 +1,6 @@
 ---
 id: CHG-0003-complete-port-requirement-evidence-and-generated-integration-guidance
-state: implementing
+state: accepted
 type: feature
 base_commit: a49b830a880362e2503c1dd2d2e1428b8c47864c
 ---
