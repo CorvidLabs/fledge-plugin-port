@@ -13,6 +13,13 @@
       "timestamp": 1783971388,
       "digest": "a9ed89b0cadf7a14d100ee77416cd8713000af126b8a54e6cb068d875f165671",
       "note": "Approved the finalized migration-only review corrections after artifact audit; no product code changes."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783971419,
+      "digest": "a8061eb5f178446aa56efaaa3ba69df76c0d63a493d7fddb4449b60c9251650d",
+      "note": "Approved finalized migration-only CHG-0002 after native verification and blocker audit; CHG-0001 remains untouched."
     }
   ]
 }
