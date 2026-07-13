@@ -1,6 +1,6 @@
 ---
 module: port
-version: 1
+version: 2
 status: active
 files:
   - src/main.rs
@@ -63,3 +63,4 @@ Then the plugin reports the matching process records and only kill sends the req
 | Version | Date | Changes |
 |---------|------|---------|
 | 1 | 2026-07-12 | Document existing cross-platform listener discovery and termination behavior for SpecSync 5 adoption. |
+| 2026-07-13 | CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-governance-for-the-port-fledge-plugin: Adopt SpecSync 5.0.1 and Trust 1.0.0 governance for the Port Fledge plugin |

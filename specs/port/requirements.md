@@ -12,6 +12,9 @@ spec: port.spec.md
 
 Show SHALL report every process listening on the selected TCP port and a clear successful message when none exists.
 
+Acceptance Criteria
+- Listener-reporting parser tests cover occupied and unoccupied ports.
+
 ### REQ-port-002
 
 List SHALL report all listening TCP ports discovered by the platform inspector.

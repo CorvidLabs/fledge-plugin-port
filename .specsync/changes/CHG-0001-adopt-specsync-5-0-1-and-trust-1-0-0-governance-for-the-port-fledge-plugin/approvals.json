@@ -6,6 +6,13 @@
       "timestamp": 1783955348,
       "digest": "99a94441b1e7699370521710844495faf96d2af21244235baf75f8f2f4dd35da",
       "note": "Definition approved after current review corrections, exact requirement evidence, and passing native Fledge verification."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783955442,
+      "digest": "48613ae4ff4233450bb9ddb66a000ea2d16f0e97013122160456eb91592abd66",
+      "note": "Closing approval recorded after successful committed-head native verification with exact requirement evidence."
     }
   ]
 }
