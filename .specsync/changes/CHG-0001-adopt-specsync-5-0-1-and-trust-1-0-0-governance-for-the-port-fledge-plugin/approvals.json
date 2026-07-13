@@ -27,6 +27,13 @@
       "timestamp": 1783986110,
       "digest": "ff197752098472ec94ff35bcb7a216aab2ff0a34d7628b73f7273c2f0330a0b6",
       "note": "Approved the explicit one-line-per-requirement evidence mapping after confirming it describes the existing parser tests, platform builds, help smoke, and bounded source inspection."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783986148,
+      "digest": "246d0b297bb207fc79f661639de20e15b56c04076c21dfb29089922458bf3951",
+      "note": "Approved the complete five-requirement semantic delta after matching every entry and acceptance criterion to the canonical companion and existing implementation evidence."
     }
   ],
   "reopenings": [
